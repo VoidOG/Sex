@@ -11,7 +11,7 @@
 - /restart
 
 # Deploy To Heroku 🚀
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbhiModszYT/Groups-Member-bans)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Massacresfr/Massacresbanallbot.git)
 
 
 # Channel
