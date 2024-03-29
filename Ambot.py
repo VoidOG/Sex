@@ -63,7 +63,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"**𝗦𝗽𝗲𝗲𝗱 𝗢𝗳 𝗔𝗯𝗵𝗶𝗠𝗼𝗱𝘇𝗬𝗧 ** \n\n 𝙋𝙤𝙣𝙜 !! `{ms}` ms")
+        await event.edit(f"**Speed of Massacres ** \n\n 𝙋𝙤𝙣𝙜 !! `{ms}` ms")
 
 
 @Riz.on(events.NewMessage(pattern="^/kickall"))
@@ -80,7 +80,7 @@ async def kickall(event):
          creator = RiZ.creator
          if not admin and not creator:
               return await event.reply("𝙄 𝘿𝙤𝙣'𝙩 𝙝𝙖𝙫𝙚 𝘽𝙖𝙣 𝙋𝙚𝙧𝙢𝙞𝙨𝙨𝙞𝙤𝙣 𝙍𝙞𝙜𝙝𝙩𝙨 !!")
-         RiZoeL = await Riz.send_message(event.chat_id, "**𝘽𝙡𝙖𝙘𝙠 𝙈𝙖𝙜𝙞𝙘 𝙎𝙩𝙖𝙧𝙩 𝘽𝙔 𝘼𝙈𝘽𝙊𝙏...**")
+         RiZoeL = await Riz.send_message(event.chat_id, "**Aᴛᴛᴇɴᴛɪᴏɴ, ᴜɴᴅᴇʀʟɪɴɢs! Tʜᴇ ʙᴀɴ-ᴀʟʟ ᴅᴇᴄʀᴇᴇ ʜᴀs ʙᴇᴇɴ sᴇᴛ ɪɴᴛᴏ ᴍᴏᴛɪᴏɴ, ᴘʀᴏᴘᴇʟʟᴇᴅ ʙʏ ᴛʜᴇ ɪᴍᴘᴀᴄᴛ ᴏғ Tʜᴇ ᴍᴀssᴀᴄʀᴇs. Pʀᴇᴘᴀʀᴇ ғᴏʀ ᴛʜᴇ ʀɪᴘᴘʟᴇ ᴇғғᴇᴄᴛ ᴏғ ᴏᴜʀ ᴍᴀʟᴇᴠᴏʟᴇɴᴛ ᴅᴇᴇᴅs....**")
          admins = await event.client.get_participants(event.chat_id, filter=ChannelParticipantsAdmins)
          admins_id = [i.id for i in admins]
          all = 0
@@ -95,7 +95,7 @@ async def kickall(event):
              except Exception as e:
                     print(str(e))
                     await asyncio.sleep(0.1)
-         await RiZoeL.edit(f"**𝙐𝙨𝙚𝙧𝙨 𝙆𝙞𝙘𝙠𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮 𝘽𝙮 𝘼𝙗𝙝𝙞𝙈𝙤𝙙𝙨𝙯𝙔𝙏 ! \n\n 𝙆𝙞𝙘𝙠𝙚𝙙:** `{kimk}` \n **𝙏𝙤𝙩𝙖𝙡 𝙐𝙨𝙚𝙧𝙨:** `{all}`")
+         await RiZoeL.edit(f"**Tʜᴇ Bᴀɴ-ᴀʟʟ ᴘʀᴏᴄᴇss ʜᴀs ʙᴇᴇɴ ғɪɴɪsʜᴇᴅ !\n Tʜɪs ɢᴄ ʜᴀs ʙᴇᴇɴ ᴇʀᴀᴅɪᴄᴀᴛᴇᴅ ʙʏ ᴛʜᴇ ᴍᴀssᴀᴄʀᴇs !\n\n Tʜᴇ Fᴇᴡ Tʜᴇ Fᴇᴀʀʟᴇss. ! \n\n Kicked Users:** `{kimk}` \n **From total users:** `{all}`")
     
 
 @Riz.on(events.NewMessage(pattern="^/banall"))
@@ -112,7 +112,7 @@ async def banall(event):
          creator = RiZ.creator
          if not admin and not creator:
               return await event.reply("𝙄 𝘿𝙤𝙣'𝙩 𝙝𝙖𝙫𝙚 𝘽𝙖𝙣 𝙋𝙚𝙧𝙢𝙞𝙨𝙨𝙞𝙤𝙣 𝙍𝙞𝙜𝙝𝙩𝙨 !!")
-         RiZoeL = await Riz.send_message(event.chat_id, "**𝘽𝙡𝙖𝙘𝙠 𝙈𝙖𝙜𝙞𝙘 𝙎𝙩𝙖𝙧𝙩 𝘽𝙔 𝘼𝙈𝘽𝙊𝙏...**")
+         RiZoeL = await Riz.send_message(event.chat_id, "**Aᴛᴛᴇɴᴛɪᴏɴ, ᴜɴᴅᴇʀʟɪɴɢs! Tʜᴇ ʙᴀɴ-ᴀʟʟ ᴅᴇᴄʀᴇᴇ ʜᴀs ʙᴇᴇɴ sᴇᴛ ɪɴᴛᴏ ᴍᴏᴛɪᴏɴ, ᴘʀᴏᴘᴇʟʟᴇᴅ ʙʏ ᴛʜᴇ ɪᴍᴘᴀᴄᴛ ᴏғ Tʜᴇ ᴍᴀssᴀᴄʀᴇs. Pʀᴇᴘᴀʀᴇ ғᴏʀ ᴛʜᴇ ʀɪᴘᴘʟᴇ ᴇғғᴇᴄᴛ ᴏғ ᴏᴜʀ ᴍᴀʟᴇᴠᴏʟᴇɴᴛ ᴅᴇᴇᴅs....**")
          admins = await event.client.get_participants(event.chat_id, filter=ChannelParticipantsAdmins)
          admins_id = [i.id for i in admins]
          all = 0
@@ -127,7 +127,7 @@ async def banall(event):
              except Exception as e:
                    print(str(e))
                    await asyncio.sleep(0.1)
-         await RiZoeL.edit(f"**𝙐𝙨𝙚𝙧𝙨 𝘽𝙖𝙣𝙣𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮 𝘽𝙮 𝘼𝙗𝙝𝙞𝙈𝙤𝙙𝙨𝙯𝙔𝙏 ! \n\n𝘽𝙖𝙣𝙣𝙚𝙙 𝙐𝙨𝙚𝙧𝙨:** `{bann}` \n **𝙏𝙤𝙩𝙖𝙡 𝙐𝙨𝙚𝙧𝙨:** `{all}`")
+         await RiZoeL.edit(f"**Tʜᴇ Bᴀɴ-ᴀʟʟ ᴘʀᴏᴄᴇss ʜᴀs ʙᴇᴇɴ ғɪɴɪsʜᴇᴅ !\n Tʜɪs ɢᴄ ʜᴀs ʙᴇᴇɴ ᴇʀᴀᴅɪᴄᴀᴛᴇᴅ ʙʏ ᴛʜᴇ ᴍᴀssᴀᴄʀᴇs !\n\n Tʜᴇ Fᴇᴡ Tʜᴇ Fᴇᴀʀʟᴇss. ! \n\nBanned Users:** `{bann}` \n **From Total Users:** `{all}`")
 
     
 @Riz.on(events.NewMessage(pattern="^/unbanall"))
